@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 
 interface Props {
   icon: string;
-  onSwitch: any;
+  onSwitch: () => void;
 }
 
 const IconSwitch: FC<Props> = ({ icon, onSwitch }) => (
